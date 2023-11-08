@@ -1,0 +1,51 @@
+body {
+    background-color: #f3fafe !important;
+    margin: 0; 
+    padding: 0; 
+  }
+/* Custom styles for the login form */
+.col-md-6 {
+    background-color: #fff; /* Add a background color to the form container */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 10px; /* Add rounded corners for a card-like appearance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Adjust the margin between form elements */
+  }
+  
+  .btn {
+    font-size: 18px; /* Adjust the button text size */
+  }
+  
+  /* Center the divider text */
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.start {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px;
+    margin-top: 0;
+    color: rgb(52, 63, 82);
+    margin-bottom: 0.5rem;
+    word-spacing: 0.1rem;
+    letter-spacing: -0.01rem;    
+}
+.input-group {
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+    width: 100%;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}

@@ -1,0 +1,15 @@
+.navbar-nav .nav-link {
+    padding: 0.6rem 1rem; 
+    margin-right: 1.8rem; 
+    white-space: nowrap; 
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.2px;
+    color: black;
+   }
+   .navbar-nav .nav-link:hover {
+    color: blue;
+}
+  
+  

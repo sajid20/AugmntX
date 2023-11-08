@@ -1,0 +1,49 @@
+body {
+    background-color: #f3fafe !important;
+    margin: 0; 
+    padding: 0; 
+  }
+
+.hire {
+        font-family: "DM Serif Display";
+        font-size: 40px;
+        font-weight: 400;
+        color: rgb(52, 63, 82);
+        letter-spacing: normal;
+        line-height: 48px;
+        margin-bottom: 15px;
+        text-align: center;
+        word-spacing: normal;
+    }
+.hire-p {
+        color: #343f52;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: normal;
+        line-height: 1.65;
+        margin-bottom: 15px;
+        text-align: center;
+       
+    }
+r-btn {
+    align-items: center;
+    padding-left: 10px;
+}
+form-control {
+    display: block;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #60697b;
+    background-color: #fefefe;
+    background-clip: padding-box;
+    border: 1px solid rgba(8, 60, 130, 0.07);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0rem 1.25rem rgb(30 34 40 / 4%);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
