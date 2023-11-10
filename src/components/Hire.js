@@ -63,78 +63,59 @@ function Hire() {
                 required=""
                 value={last_name}
               />
-              <label>Last Name *</label>
+              <label>Job Title *</label>
             </div>
           </div>
           <div className="col-md-6">
             <div className="form-floating mb-4">
               <input
-                id="org_job_name"
+                id="reg_name"
                 type="text"
-                name="org_job_name"
+                name="reg_name"
                 class="form-control"
-                placeholder="Jane"
+                placeholder="Company"
                 required=""
                 value=""
               />
-              <label for="org_job_name">Job Title *</label>
+              <label for="org_job_name">Company Name *</label>
             </div>
           </div>
           <div className="col-md-6">
             <div className="form-floating mb-4">
               <input
-                id="org_org_name"
-                type="text"
-                name="org_org_name"
-                class="form-control"
-                placeholder="Jane"
-                required=""
-                value=""
-              />
-              <label for="org_name">Organization *</label>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="form-floating mb-4">
-              <input
-                id="org_webt_name"
-                type="text"
-                name="org_web_name"
-                class="form-control"
-                placeholder="Jane"
-                required=""
-                value=""
-              />
-              <label for="org_website_name">Website *</label>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="form-floating mb-4" id="email_input">
-              <input
-                style={{ width: "60%", display: "inline-block" }}
-                id="form_work_email"
+                id="reg_email"
                 type="email"
-                name="org_email"
+                name="oreg_email"
                 class="form-control"
-                placeholder="email@website.com"
+                placeholder="email@domain.com"
                 required=""
                 value=""
               />
-              <label for="form_work_email">Work email *</label>
-              <p id="email_domain" style={{ display: "inline", width: "35%" }}>
-                @website.com
-              </p>
-              <i
-                id="x_icon"
-                class="uil uil-times-circle"
-                style={{
-                  position: "absolute",
-                  top: "0px",
-                  right: "0px",
-                  display: "block",
-                }}
-                onclick="cancel_autofill()"
-              ></i>
+              <label for="org_name">Work Email *</label>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="form-floating mb-4">
+              <input
+                id="reg_tel"
+                type="text"
+                name="reg_tel"
+                class="form-control"
+                placeholder="9876543210"
+                required=""
+                value=""
+              />
+              <label for="org_website_name">Phone *</label>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="form-select-wrapper mb-4" id="email_input">
+            <select class="form-select" aria-label="Default select example" name="reg_mode" required=""> 
+            <option value="">How did you hear about us? *</option> 
+            <option value="Email">Email</option> 
+            <option value="Search engine">Search engine</option> 
+            <option value="Social media">Social media</option> 
+            <option value="Others">Others</option> </select>
             </div>
           </div>
           {/* Submitt */}
