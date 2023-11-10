@@ -10,6 +10,11 @@ function Login() {
     e.preventDefault();
     const data = { email, password };
 
+    if (!email || !password) {
+      console.error("Email and password are required.");
+      return;
+    }
+
     try {
       const response = await fetch("https://augmntx.com/api/login", {
         method: "POST",
