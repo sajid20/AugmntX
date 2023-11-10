@@ -6,9 +6,12 @@ import "./Hire.css";
 function Hire() {
   const [first_name, setFirstName] = useState("");
   const [last_name, setLastName] = useState("");
+  const [org_name, setOrgName] = useState("");
+  const [email, setEmail] = useState("");
+  const [tel, setTel] = useState("")
 
   async function signup() {
-    let item = { first_name, last_name };
+    let item = { first_name, last_name, org_name, email, tel };
 
     let result = await fetch("https://augmntx.com/api/register", {
       method: "POST",
@@ -71,11 +74,12 @@ function Hire() {
               <input
                 id="reg_name"
                 type="text"
+                onChange={(e) => setOrgName(e.target.value)}
                 name="reg_name"
                 class="form-control"
                 placeholder="Company"
                 required=""
-                value=""
+                value= {org_name}
               />
               <label for="org_job_name">Company Name *</label>
             </div>
@@ -85,11 +89,12 @@ function Hire() {
               <input
                 id="reg_email"
                 type="email"
+                onChange = {(e) => setEmail(e.target.value)}
                 name="oreg_email"
                 class="form-control"
                 placeholder="email@domain.com"
                 required=""
-                value=""
+                value= {email}
               />
               <label for="org_name">Work Email *</label>
             </div>
@@ -99,11 +104,12 @@ function Hire() {
               <input
                 id="reg_tel"
                 type="text"
+                onChange = {(e) => setTel(e.target.value)}
                 name="reg_tel"
                 class="form-control"
                 placeholder="9876543210"
                 required=""
-                value=""
+                value={tel}
               />
               <label for="org_website_name">Phone *</label>
             </div>
