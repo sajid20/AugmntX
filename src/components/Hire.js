@@ -51,7 +51,7 @@ function Hire() {
                 required=""
                 value={first_name}
               />
-              <label for="org_first_name">Name *</label>
+              <label>Name *</label>
             </div>
           </div>
           <div className="col-md-6">
@@ -81,7 +81,7 @@ function Hire() {
                 required=""
                 value= {org_name}
               />
-              <label for="org_job_name">Company Name *</label>
+              <label>Company Name *</label>
             </div>
           </div>
           <div className="col-md-6">
@@ -96,7 +96,7 @@ function Hire() {
                 required=""
                 value= {email}
               />
-              <label for="org_name">Work Email *</label>
+              <label>Work Email *</label>
             </div>
           </div>
           <div className="col-md-6">
@@ -111,7 +111,7 @@ function Hire() {
                 required=""
                 value={tel}
               />
-              <label for="org_website_name">Phone *</label>
+              <label>Phone *</label>
             </div>
           </div>
           <div className="col-md-6">
